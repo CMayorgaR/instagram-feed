@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(167, 164, 164);
+    margin: 0 auto;
+}
+
+.firstdiv {
+    display: inline-block;
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.padre {
+    flex-direction:column;
+    text-align:center;
+    width: 600px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.padre h1 {
+    text-align:left;
+    font-size: large;
+    float:left;
+    margin-left: 10px;
+}
+
+.padre span {
+    color: grey;
+    text-align: right;
+    font-size: large;
+    float:right;
+    margin-right:10px;
+    margin-top: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.description {
+    text-align: justify;
+    padding: 15px;
+}
